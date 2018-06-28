@@ -10,7 +10,7 @@ socket.on('disconnect', function () {
 
 // Enviar información
 socket.emit('enviarMensaje', {
-    usuario: 'Manuel',
+    usuario: 'Usuario',
     mensaje: 'Hola Mundo',
 }, function (resp) {
     console.log('respuesta server:', resp);

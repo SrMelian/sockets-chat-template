@@ -1,9 +1,23 @@
-# Notas:
+# Template chat
+*Training project*
+Template to make work a chat made it in Node.js, to make the communication with the server has been used
+- https://socket.io/
 
-Este es un pequeño servidor de express listo para ejecutarse y servir la carpeta public en la web.
+## Demo
+https://sockets-basic-chat.herokuapp.com/
 
-Recuerden que deben de reconstruir los módulos de node con el comando
+## Previous steps
+Run the command ```npm install``` to install the packages
 
-```
-npm install
-```
+## Use
+To test this template:
+1. Open two tabs in the internet browser
+2. Open the console on both tabs
+3. Write this line of code
+    ```
+    socket.emit('enviarMensaje', {
+        usuario: 'Yoda',
+        mensaje: 'Do. Or do not. There is no try.',
+    });
+    ```
+You can also test it with a friend on two different computers.
