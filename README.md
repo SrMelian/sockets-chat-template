@@ -1,5 +1,6 @@
 # Template chat
 *Training project*
+
 Template to make work a chat made it in Node.js, to make the communication with the server has been used
 - https://socket.io/
 
